@@ -7,7 +7,7 @@
 
 ## Overall idea: Taking the mean of a long numeric vector can require much computing power & time. In order to
 ## save us this hassle, cache the value of the mean so it can be found fast. This task will cache the inverse of matrix.
-## ******************************
+## *****************************
 
 ##Note: we will assume the matrix given is always invertible.
 
