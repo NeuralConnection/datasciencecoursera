@@ -1,15 +1,8 @@
-## This is a markdown file
-
-
-
-
 ---
-title: "HelloWorld"
+title: "just an examplePDF"
 author: "lg"
 date: "2023-05-11"
-output:
-  word_document: default
-  html_document: default
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -22,18 +15,17 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r greeeting}
+```{r hello}
 print("hello world!")
+print("I am testing this")
 ```
 
 ## Including Plots
 
-#You can also embed plots, for example:
+You can also embed plots, for example:
 
-#```{r pressure, echo=FALSE}
-#plot(pressure)
-#```
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
 
-#Note that the `echo = FALSE` parameter was added to the code #chunk to prevent printing of the R code that generated the plot.
-=======
-
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
