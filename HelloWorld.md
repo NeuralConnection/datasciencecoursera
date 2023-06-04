@@ -2,6 +2,7 @@
 
 
 
+
 ---
 title: "HelloWorld"
 author: "lg"
@@ -34,3 +35,5 @@ print("hello world!")
 #```
 
 #Note that the `echo = FALSE` parameter was added to the code #chunk to prevent printing of the R code that generated the plot.
+=======
+
